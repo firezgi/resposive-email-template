@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+img{
+    width:6%;
+    min-width: 30px;
+}
+.row-one{
+    background-color: aquamarine;
+}
+.row-two{
+    background-color:bisque;
+}
+.col-one{
+    background-color: rgb(132, 132, 237);
+}
+.col-two{
+    background-color: rgb(126, 126, 163);
+}
+cont{
+    background-color: brown;
+}
