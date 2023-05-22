@@ -11,33 +11,39 @@
     <title>Responsive-email-template</title>
 </head>
 <body>
-  <div class="container-fluid">
-    <div class=" container-fliud d-flex" role="search">
-        <img src="/images/logo.png" class="img-float" alt="logo">
-        <div d-block d-sm-none align-items-center >
-          <i class="fa-solid fa-bars"></i>
+  <div class="container-fluid heading " style="min-height: 100%;">
+    <div class=" container-fluid d-flex mh-100" >
+        <img src="/images/logo.png" class="img-float p-1" alt="logo">
+        
+        <div d-flex d-block d-sm-none style="display: flex;align-items: center;" >
+          <i class="bi bi-list "></i>
         </div>
-        <input class="form-control me-2" type="search" placeholder="Search Email" aria-label="Search">
+        <input class="form-control me-2 block-three m-1" type="search" placeholder="Search Email" aria-label="Search" style="width:92%">
+        <div style="display: flex;align-items: center;"><i class="bi bi-person-circle "></i></div>
     </div>
-    <div class="row d-flex ">
-      <div class="row col-sm-6 col-md-8 ">
-        <div class=" d-none d-sm-block col-md-6 block-one">
+    <div class="container-fluid d-flex  ">
+      <div class="row col-sm-6 col-md-6 ">
+        <div class=" d-none d-sm-block col-md-4 block-one ">
           <button type="button" class=" btn btn-info m-2">
             Compose
           </button>
           <ul class="list-group list-group-flush first-list">
-            <li class="list-group-item active justify-content-between d-flex"> <p>Inbox</p> <p>20</p></li>
+            <li class="list-group-item active">
+              <i class="bi bi-envelope"></i> Inbox  20</li>
             <li class="list-group-item">
               <i class="bi bi-star"></i> Starred</li>
+            <li class="list-group-item">
+                <i class="bi bi-file-earmark"></i> Drafts</li>
             <li class="list-group-item"><i class="bi bi-arrow-right"></i>Sent</li>
             <li class="list-group-item"><i class="bi bi-exclamation-octagon-fill"></i>Spam</li>
             <li class="list-group-item"><i class="bi bi-trash-fill"></i>Trash</li>
           </ul>
         </div>
-        <div class="col-md-6  block-two">
+        <div class="  col-md-8  block-two vh-100">
           <ul class="list-group list-group-flush first-list block-two">
             <li class="list-group-item  active first-item"> <i class="bi bi-square"></i><i class="bi bi-star"></i>Bank of America <br>
-              Statement available: Statment for the month of may is available.
+              Your statement is available: View statement by going to Ask Erica,"View my statement"...
+
             </li>
             <li class="list-group-item"><i class="bi bi-square"></i><i class="bi bi-star"></i>Sender <br>
               Title: Description</li>
@@ -60,28 +66,39 @@
                 Title: Description</li>
               <li class="list-group-item"><i class="bi bi-square"></i><i class="bi bi-star"></i>Sender <br>
                 Title: Description</li>
-              <li class="list-group-item"><i class="bi bi-square"></i><i class="bi bi-star"></i>Sender <br>
-                Title: Description</li>
-              <li class="list-group-item"><i class="bi bi-square"></i><i class="bi bi-star"></i>Sender <br>
-                Title: Description</li>
-              <li class="list-group-item"><i class="bi bi-square"></i><i class="bi bi-star"></i>Sender <br>
-                Title: Description</li>  
+                
           </ul>
+          <div class="d-flex  vh-100">
+            <button type="button" class=" btn btn-info compose-button d-block d-sm-none">
+              Compose
+            </button>
+          </div>
+          
         </div>
       </div>
-      <div class="d-none d-sm-block col-sm-6 col-md-4 h-100 text-center block-three">
-        <h4>Title: Brief description</h4>
-        <h4>Sender's Name </h4>
-        <p>Title</p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      <div class="d-none d-sm-block col-sm-6 col-md-6 mh-100 text-center block-three p-5">
+        <h4>View your statement <button type="button" class="btn btn-light me-2"><i class="bi bi-folder-symlink"></i>Forward</button></h4>
+        <h4>Bank of America</h4>
+        <p>Your statement is available</p>
+        <p>View statement by going to
+                Ask Erica,"View my statement"
+                We'll never ask for your personal information such as SSN or ATM PIN in
+                email messages. If you get an email that looks suspicious or you are not
+                the intended recipient of this email, don't click on any links. Instead,
+                forward to abuse@bankofamerica.com then delete it.
+
+                Please don't reply to this automatically generated service email.
+                Read our Privacy Notice
+                Equal Housing Lender:
+                Bank of America, N.A. Member FDIC
+                (C) 2023 Bank of America Corporation
         </p>
         <textarea rows="15%" class="w-100">
           
         </textarea>
         <div class="d-flex w-100 justify-content-between">
-          <p>link</p>
-          <button type="button" class="btn btn-light">reply</button>
+          <p><i class="bi bi-paperclip"></i><i class="bi bi-emoji-smile"></i><i class="bi bi-file-image"></i><i class="bi bi-link"></i></p>
+          <button type="button" class="btn btn-light me-2"><i class="bi bi-reply"></i>reply</button>
         </div>
         
       </div>

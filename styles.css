@@ -1,14 +1,18 @@
 
 
 img{
-    width:6%;
-    min-width: 30px;
+    width:3%;
+    height: auto;
+    min-width: 40px;
 }
 
 i{
     font-style: normal;
     padding: 2px;
     margin-top: 5px;
+}
+.heading{
+    background-color: #D2C3C3;
 }
 .block-one{
     background-color:#E0D3D3;
@@ -33,6 +37,11 @@ textarea{
 }
 .list-group-item{
     border:none;
+}
+.compose-button{
+    height:40px;
+    align-items: flex-end;
+    
 }
 @media screen and (max-width: 576px) {
     .first-item {
